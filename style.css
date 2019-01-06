@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+body {
+  background-color: #F1F1F1;
+  font-family: Lato;
+  font-weight: 300;
+  overflow: hidden;
+}
+.card {
+  width: 350px;
+  height: 330px;
+  background-color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  overflow: hidden;
+  box-shadow: 0 0px 0px 4px rgba(0, 0, 0, 0.05);
+  transition: all .2s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.card .top-half {
+  width: 100%;
+  height: 150px;
+  background-image: url(https://images.unsplash.com/photo-1509822429293-98a3c3fe6bee?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f0ffbc89619c4b9daa94cf6a11249202&auto=format&fit=crop&w=987&q=80);
+  background-size: auto 310%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.card .bottom-half {
+  margin-left: 5%;
+  margin-top: 12px;
+  width: 90%;
+  text-align: center;
+}
+button {
+    padding: 0.4em;
+    font-size: 0.88em;
+    background-color: transparent;
+    border: solid 1px #999999;
+    color: black;
+    border-radius: 5px;
+}
+button:hover {
+    cursor: pointer;
+    color: orangered;
+}
+.title {
+    text-align: center;
+    padding: 0.5em;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #555555;
+    margin-bottom: 2px;
+}
+.card .bottom-half .subtitle {
+  font-size: 12px;
+  color: #999999;
+}
+input[type="text"] {
+    height: 23px;
+    width: 80px;
+    border: solid 1px #999999;
+    outline: none;
+    padding: 0.7em;
+    border-radius: 5px;
+}
+#footer {
+  text-align: center;
+  color: #999999;
+  font-size: 12px;
+  margin-top: 40%;
+}
